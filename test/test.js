@@ -8,6 +8,8 @@ describe('test suite', () => {
   })
   it('can access browser\'s code', () => {
     main.should.be.a('function')
+  })
+  it('main returns "Hello world!"', () => {
     main().should.equals('Hello world!')
   })
 })
