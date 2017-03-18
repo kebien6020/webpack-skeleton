@@ -3,7 +3,8 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: __dirname + '/js',
-    filename: 'index.js'
+    filename: 'index.js',
+    publicPath: '/js/'
   },
   devtool: 'source-map',
   module: {
