@@ -1,6 +1,5 @@
-const chai = require('chai')
-const { requireFromBrowser } = require('./util.js')
-
+import main from '../src/main.js'
+import chai from 'chai'
 chai.should()
 
 describe('test suite', () => {
@@ -8,7 +7,7 @@ describe('test suite', () => {
     'Test suite is working'.should.equals('Test suite is working')
   })
   it('can access browser\'s code', () => {
-    const main = requireFromBrowser('./main.js')
+    main.should.be.a('function')
     main().should.equals('Hello world!')
   })
 })

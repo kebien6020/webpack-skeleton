@@ -1,9 +1,12 @@
 module.exports = {
   context: __dirname,
-  entry: './src/main.js',
+  entry: {
+    index: './src/main.js',
+    test: './test/test.js',
+  },
   output: {
     path: __dirname + '/js',
-    filename: 'index.js',
+    filename: '[name].js',
     publicPath: '/js/'
   },
   devtool: 'source-map',
