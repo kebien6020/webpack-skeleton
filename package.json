@@ -4,10 +4,11 @@
   "description": "A simple, ready-to-use webpack skeleton for personal projects.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/*.js",
+    "test": "echo run npm start and go to /test.html",
     "start": "webpack-dev-server",
     "watch": "webpack -w",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
