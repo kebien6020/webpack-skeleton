@@ -1,0 +1,23 @@
+{
+  "name": "webpack-skeleton",
+  "version": "1.0.0",
+  "description": "A simple, ready-to-use webpack skeleton for personal projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kebien6020/webpack-skeleton.git"
+  },
+  "keywords": [
+    "webpack",
+    "skeleton"
+  ],
+  "author": "Kevin Peña",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kebien6020/webpack-skeleton/issues"
+  },
+  "homepage": "https://github.com/kebien6020/webpack-skeleton#readme"
+}
